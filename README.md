@@ -1,1 +1,37 @@
-# testePHP
+# Teste de PHP
+Objetivo
+Criar um sistema simples de controle de usuário, utilizando PHP, sem a utilização de nenhum framework, onde será possível Criar/Editar/Excluir/Listar usuários.
+
+O sistema também deve possuir a possibilidade de vincular/desvincular várias cores ao usuário.
+
+Banco de Dados
+A estrutura abaixo será utilizada para armazenar os dados, podendo ser alterada a qualquer momento para melhor funcionamento do sistema:
+
+    usuário: root
+    senha: testePHP
+    db: testePHP
+    IP: 192.168.10.
+    host: localhost
+    
+    tabela: users
+        id      int not null auto_increment primary key
+        name    varchar(100) not null
+        email   varchar(100) not null
+
+    tabela: colors
+        id      int not null auto_increment primary key
+        name    varchar(50) not null
+
+Servidor
+Crie uma pasta com seu nome e coloque todos os arquivos dentro e envia por SCP utilizando as informações a seguir:
+    
+    usuário: testephp
+    senha: phprocks
+    IP: 192.168.10.
+    pasta: /home/testephp
+
+Início
+Utilize PDO para conexão e interação com o banco de dados.
+
+Boa Sorte
+Use seu conhecimento, consulte a documentação e o google, caso ainda houver dúvidas, nos pergunte :D. Boa sorte!
