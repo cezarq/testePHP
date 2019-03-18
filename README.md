@@ -31,7 +31,7 @@ Crie uma pasta com seu nome e coloque todos os arquivos dentro e envia por SCP u
     usuário: testephp
     senha: phprocks
     IP: 192.168.10.222
-    pasta: /home/testephp
+    pasta: /home/testephp/www
 
 INÍCIO
 
