@@ -13,7 +13,7 @@ A estrutura abaixo será utilizada para armazenar os dados, podendo ser alterada
     senha: testePHP
     db: testePHP
     IP: 192.168.10.222
-    host: localhost
+    host: db
     
     tabela: users
         id      int not null auto_increment primary key
