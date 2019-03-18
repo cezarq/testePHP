@@ -7,6 +7,8 @@ O sistema também deve possuir a possibilidade de vincular/desvincular várias c
 
 BANCO DE DADOS
 
+PHPMyAdmin: http://192.168.10.222:8000
+
 A estrutura abaixo será utilizada para armazenar os dados, podendo ser alterada a qualquer momento para melhor funcionamento do sistema:
 
     usuário: root
