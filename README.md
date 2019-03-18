@@ -12,7 +12,7 @@ A estrutura abaixo será utilizada para armazenar os dados, podendo ser alterada
     usuário: root
     senha: testePHP
     db: testePHP
-    IP: 192.168.10.
+    IP: 192.168.10.222
     host: localhost
     
     tabela: users
@@ -30,7 +30,7 @@ Crie uma pasta com seu nome e coloque todos os arquivos dentro e envia por SCP u
     
     usuário: testephp
     senha: phprocks
-    IP: 192.168.10.
+    IP: 192.168.10.222
     pasta: /home/testephp
 
 INÍCIO
