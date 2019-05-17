@@ -7,14 +7,14 @@ O sistema também deve possuir a possibilidade de vincular/desvincular várias c
 
 BANCO DE DADOS
 
-PHPMyAdmin: http://192.168.10.222:8000
+PHPMyAdmin: http://192.168.10.252:8000
 
 A estrutura abaixo será utilizada para armazenar os dados, podendo ser alterada a qualquer momento para melhor funcionamento do sistema:
 
-    usuário: root
+    usuário: testePHP
     senha: testePHP
     db: testePHP
-    IP: 192.168.10.222
+    IP: 192.168.10.252
     host: db
     
     tabela: users
@@ -32,7 +32,7 @@ Crie uma pasta com seu nome e coloque todos os arquivos dentro e envia por SCP u
     
     usuário: testephp
     senha: phprocks
-    IP: 192.168.10.222
+    IP: 192.168.10.252
     pasta: /home/testephp/www
 
 INÍCIO
